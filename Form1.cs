@@ -16,14 +16,32 @@ namespace Metody18_IKAP_ML4058
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Vypočítá objem krychle z délky hrany a. 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
         public static double Objem(double a)
         {
             return a * a * a;
         }
+        /// <summary>
+        /// Vypočítá objem kvádru z parametru a,b,c. 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns></returns>
         public static double Objem(double a,double b, double c)
         {
             return a * b * c;
         }
+        /// <summary>
+        /// Vypočítá objem válce z výšky a poloměru. 
+        /// </summary>
+        /// <param name="polomer"></param>
+        /// <param name="vyska"></param>
+        /// <returns></returns>
         public static double Objem(double polomer, double vyska)
         {
             return Math.PI * polomer * polomer * vyska;
